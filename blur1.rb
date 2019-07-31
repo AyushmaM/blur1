@@ -9,6 +9,12 @@ class Image
 			puts num.join
 		end
 	end
+
+	def find_1
+		@image.each do |arr|
+			puts arr.join
+		end
+	end
 end
 
 image = Image.new([
@@ -20,6 +26,8 @@ image = Image.new([
 
 
 image.output_image
+
+
 
 
 
